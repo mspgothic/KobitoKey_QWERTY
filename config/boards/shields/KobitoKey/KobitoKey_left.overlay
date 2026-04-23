@@ -74,7 +74,7 @@
             <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
             <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>;
     };
-
+/*
 / {
   /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
     compatible = "zmk,input-processor-temp-layer";
@@ -101,4 +101,4 @@
         33
         39
     >;
-};
+};*/
