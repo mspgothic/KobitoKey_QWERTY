@@ -91,7 +91,7 @@
         <&zip_temp_layer 3 5000>; /* オートマウスレイヤーの指定とトラボ操作及びマウスボタン押下後に滞留する時間 */
 };
 
-&zip_temp_layer {
+&zip_temp_layer {/*以下のキー以外が押下されたらマウスレイヤから離脱*/
     excluded-positions = <
         6
         7
