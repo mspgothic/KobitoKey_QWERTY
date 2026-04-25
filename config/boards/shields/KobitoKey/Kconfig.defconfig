@@ -1,7 +1,3 @@
-#BT
-CONFIG_BT_PERIPHERAL_PREF_MIN_INT=12/*レポート頻度が60Hz程度を超えないように制限*/
-CONFIG_BT_PERIPHERAL_PREF_MAX_INT=12/*レポート頻度が60Hz程度を超えないように制限*/
-
 # 左（central）
 if SHIELD_KOBITOKEY_LEFT
 config ZMK_KEYBOARD_NAME
