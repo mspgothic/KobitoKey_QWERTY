@@ -1,5 +1,5 @@
 # Bluetoothの接続インターバルを最小にする（遅延改善）
-CONFIG_BT_PERIPHERAL_PREF_MIN_INT=6
+CONFIG_BT_PERIPHERAL_PREF_MIN_INT=12
 CONFIG_BT_PERIPHERAL_PREF_MAX_INT=12
 
 #Bluetooth送信出力最大化(遅延改善)
